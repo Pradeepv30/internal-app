@@ -1,7 +1,7 @@
 node {
 
     def project_id = "strategic-guru-280413"
-    def appName = "events-sample-external"
+    def appName = "events-sample-internal"
     def tagName = "gcr.io/${project_id}/${appName}:${env.BUILD_NUMBER}"
 
     stage ('gitSCM') {
